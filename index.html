@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        h1{
+            text-align: center;
+        }
+        img:hover {
+background-image: url();
+        }
+        #grad1{
+            height: 150px;
+            background-color: red;
+            background-image: linear-gradient(to right, violet , indigo , blue, green, yellow, orange, red) ;
+        }
+        #conn{
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+            background-image: conic-gradient(rgb(125, 18, 18),rgb(46, 41, 46),rgb(89, 232, 89));
+            margin-left: 45%;
+        }
+        #circle{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: blueviolet;
+            background-image: radial-gradient(rgb(243, 13, 13),rgb(207, 16, 207),rgb(196, 211, 196),blue,red); 
+            margin-left: 45%;
+        }
+        #water{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            background-image: radial-gradient(rgb(101, 13, 243),rgb(207, 16, 207),rgb(28, 188, 28),rgb(255, 0, 204),red); 
+            text-align: center;
+            margin-left: 45%;
+        }
+        marquee{
+            color: green;
+        }
+        
+    </style>
+</head>
+<body>
+<!-- <progress>mnnnnnn</progress>
+<p>democracy<meter>80%</meter></p> -->
+<div>
+    <img src="https://img.freepik.com/free-photo/buddha-statue-nature_23-2151033729.jpg?t=st=1713849465~exp=1713853065~hmac=8038523ffc539948772bd0cd692619e7faafd15e87c893ab11e50fadbaf5a293&w=360" alt="" width="200px" height="250px">
+</div>
+<marquee behavior="" direction=""><h1> linear-gradient</h1></marquee>
+
+<div id="grad1"><h1>Rainbow</h1></div><br><br>
+<marquee behavior="" direction=""><h1> conic-gradient</h1></marquee>
+<div id="conn"><h1>cone</h1></div><br><br>
+<marquee behavior="" direction=""><h1> circle-gradient</h1></marquee>
+
+<div id="circle"></div>
+<marquee behavior="" direction=""><h1> cicle2-gradient</h1></marquee>
+
+
+<div id="water"></div>
+   
+</body>
+</html>
